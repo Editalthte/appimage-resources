@@ -21,14 +21,16 @@ Categories=Education;
 # Describes whether this application needs to be run in a terminal or not
 Terminal=true
 
-# The path to the folder in which the executable is run
-# 	Probably not required for appimages?
-# Path=/opt/jmemorise
-
-# The executable of the application, possibly with arguments.
-#	Also probably not required for appimages?
-# Exec=hello-world.appimage
-
 # The version of the desktop entry specification to which this file complies
 # Version=1.0
 X-AppImage-Version=0.1.09
+
+
+# The helloworld.desktop file sets the name of the application to hello-world-appimage, and the icon to hello-world-icon.
+# Notably, other entries found in desktop files (such as Exec) are unnecessary for our purposes, and we’ve left them out.
+
+# The path to the folder in which the executable is run
+# Path=/opt/hello-world
+
+# The executable of the application, possibly with arguments.
+# Exec=hello-world.appimage
